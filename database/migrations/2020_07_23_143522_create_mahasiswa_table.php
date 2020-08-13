@@ -18,6 +18,7 @@ class CreateMahasiswaTable extends Migration
             $table->String('nim',11);
             $table->String('nama_lengkap');
             $table->integer('prodi');
+            $table->String('alamat');
             $table->timestamps();
         });
     }
